@@ -134,6 +134,18 @@
 }
 
 
+
+@Inbook{Dongol2024,
+author="Dongol, B.
+and Lahav, O.
+and Wehrheim, H.",
+title="A Rely-Guarantee Framework for Proving Deadlock Freedom under Causal Consistency",
+bookTitle="Festschrift Cliff Jones",
+year="2024",
+publisher="Springer",
+volume=14780,
+}
+
 @Inbook{Dongol2021,
 author="Dongol, B.
 and Bell, R.
@@ -169,29 +181,46 @@ url="https://doi.org/10.1007/978-3-030-66494-7_14"
 }
 
 
+@article{OOPSLA-24,
+ author = {G. Ambal and B. Dongol and H. Eran and V. Klimis and O. Lahav and A. Raad},
+ title  = {Semantics of Remote Direct Memory Access: Operational and Declarative Models of RDMA on TSO Architectures},
+ journal = {Proc. ACM Program. Lang.},
+ volume = {6(OOPSLA2)},
+ pages = {},
+ year = {2024},
+ note={To Appear}}
+
+
+@article{FMSD,
+ author = {E. Bila and B. Dongol},
+ title  = {A Verified Durable Transactional Mutex Lock for Persistent x86-TSO},
+ journal = {Formal Methods in System Design},
+ volume = {},
+ pages = {},
+ year = {2024},
+ note={To appear}}
+
 
 @article{10.1145/3670419,
 author = {Dongol, B. and Dubois, C. and Hallerstede, S. and Hehner, E. and Morgan, C. and M\"{u}ller, P. and Ribeiro, L. and Silva, A. and Smith, G. and de Vink, E.},
 title = {On Formal Methods Thinking in Computer Science Education},
 year = {2024},
-publisher = {ACM},
+publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 issn = {0934-5043},
 url = {https://doi.org/10.1145/3670419},
 doi = {10.1145/3670419},
 note = {Just Accepted},
 journal = {Form. Asp. Comput.},
-month = {jun},
-okeywords = {formal methods, ACM CS2023, computer-science education}
+month = {jun}
 }
 
 
-
 @article{DBLP:journals/scp/AhmadiDG24,
-  author       = {S. Ahmadi and
-                  B. Dongol and
-                  M. Griffin},
-  title        = {Operationally proving memory access violations in {Isabelle/HOL}},
+  author       = {Sharar Ahmadi and
+                  Brijesh Dongol and
+                  Matt Griffin},
+  title        = {Operationally proving memory access violations in Isabelle/HOL},
   journal      = {Sci. Comput. Program.},
   volume       = {234},
   pages        = {103088},
@@ -203,12 +232,11 @@ okeywords = {formal methods, ACM CS2023, computer-science education}
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-
 @article{DBLP:journals/fac/WrightDBD23,
-  author       = {D. Wright and
-                  S. Dalvandi and
-                  M. Batty and
-                  B. Dongol},
+  author       = {Daniel Wright and
+                  Sadegh Dalvandi and
+                  Mark Batty and
+                  Brijesh Dongol},
   title        = {Mechanised Operational Reasoning for {C11} Programs with Relaxed Dependencies},
   journal      = {Formal Aspects Comput.},
   volume       = {35},
@@ -221,7 +249,6 @@ okeywords = {formal methods, ACM CS2023, computer-science education}
   biburl       = {https://dblp.org/rec/journals/fac/WrightDBD23.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-
 
 @article{OOPSLA-22,
  author = {S. Dalvandi and B. Dongol},
@@ -279,7 +306,7 @@ okeywords = {formal methods, ACM CS2023, computer-science education}
                P. D. W. V. Tran{-}J{\o}rgensen and
                J. Woodcock},
   title     = {A Survey of Practical Formal Methods for Security},
-  j.ournal   = {Formal Aspects Comput.},
+  journal   = {Formal Aspects Comput.},
   volume    = {34},
   number    = {1},
   pages     = {1--39},
@@ -556,18 +583,44 @@ URL = {https://doi.org/10.1080/10494820.2020.1716022}
 }
 
 
-@inproceedings{DBLP:conf/usenix/EgorovCDOK24,
-  author       = {S. Egorov and
-                  G. V. Chockler and
+@inproceedings{DISC24,
+  author       = {Armando Castenada and
+                  Gregory V. Chockler and
+                  Brijesh Dongol and
+                  Ori Lahav},
+  editor       = {},
+  title        = {What Cannot Be Implemented on Weak Memory?},
+  booktitle    = {DISC},
+  pages        = {},
+  publisher    = {},
+  year         = {2024},
+  note         = {To appear}}
+
+@inproceedings{FM24,
+  author       = {L. Bargmann and
                   B. Dongol and
-                  D. O'Keeffe and
-                  S. Keshavarzi},
-  editor       = {S. Bagchi and
-                  Y. Zhang},
+                  H. Wehrheim},
+  editor       = {},
+  title        = {Unifying Weak Memory Verification using Potentials},
+  booktitle    = {FM},
+  pages        = {},
+  publisher    = {},
+  year         = {2024},
+  note         = {To appear}}
+
+
+@inproceedings{DBLP:conf/usenix/EgorovCDOK24,
+  author       = {Sergey Egorov and
+                  Gregory V. Chockler and
+                  Brijesh Dongol and
+                  Dan O'Keeffe and
+                  Sadegh Keshavarzi},
+  editor       = {Saurabh Bagchi and
+                  Yiying Zhang},
   title        = {Mangosteen: Fast Transparent Durability for Linearizable Applications
                   using {NVM}},
-  booktitle    = {{USENIX}
-                  {ATC}},
+  booktitle    = {Proceedings of the 2024 {USENIX} Annual Technical Conference, {USENIX}
+                  {ATC} 2024, Santa Clara, CA, USA, July 10-12, 2024},
   pages        = {799--815},
   publisher    = {{USENIX} Association},
   year         = {2024},
@@ -578,15 +631,18 @@ URL = {https://doi.org/10.1080/10494820.2020.1716022}
 }
 
 @inproceedings{DBLP:conf/esop/RaadLWBD24,
-  author       = {A. Raad and
-                  O. Lahav and
-                  J. Wickerson and
-                  P. Balcer and
-                  B. Dongol},
-  editor       = {S. Weirich},
+  author       = {Azalea Raad and
+                  Ori Lahav and
+                  John Wickerson and
+                  Piotr Balcer and
+                  Brijesh Dongol},
+  editor       = {Stephanie Weirich},
   title        = {Intel {PMDK} Transactions: Specification, Validation and Concurrency},
-  booktitle    = {ESOP},
-  series       = {LNCS},
+  booktitle    = {Programming Languages and Systems - 33rd European Symposium on Programming,
+                  {ESOP} 2024, Held as Part of the European Joint Conferences on Theory
+                  and Practice of Software, {ETAPS} 2024, Luxembourg City, Luxembourg,
+                  April 6-11, 2024, Proceedings, Part {II}},
+  series       = {Lecture Notes in Computer Science},
   volume       = {14577},
   pages        = {150--179},
   publisher    = {Springer},
@@ -599,20 +655,23 @@ URL = {https://doi.org/10.1080/10494820.2020.1716022}
 }
 
 @inproceedings{DBLP:conf/esop/RaadLWBD24a,
-  author       = {A. Raad and
-                  O. Lahav and
-                  J. Wickerson and
-                  P. Balcer and
-                  B. Dongol},
-  editor       = {S. Weirich},
+  author       = {Azalea Raad and
+                  Ori Lahav and
+                  John Wickerson and
+                  Piotr Balcer and
+                  Brijesh Dongol},
+  editor       = {Stephanie Weirich},
   title        = {Artifact Report: Intel {PMDK} Transactions: Specification, Validation
                   and Concurrency},
-  booktitle    = {ESOP},
-  series       = {LNCS},
-  volume       = {14577},
+  booktitle    = {Programming Languages and Systems - 33rd European Symposium on Programming,
+                  {ESOP} 2024, Held as Part of the European Joint Conferences on Theory
+                  and Practice of Software, {ETAPS} 2024, Luxembourg City, Luxembourg,
+                  April 6-11, 2024, Proceedings, Part {II}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = 14577,
   pages        = {180--184},
   publisher    = {Springer},
-  year         = {2024},
+  year         = 2024,
   url          = {https://doi.org/10.1007/978-3-031-57267-8\_7},
   doi          = {10.1007/978-3-031-57267-8\_7},
   timestamp    = {Sat, 04 May 2024 10:54:46 +0200},
@@ -620,28 +679,22 @@ URL = {https://doi.org/10.1080/10494820.2020.1716022}
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{DBLP:conf/vmcai/BodenmullerDDSW24,
-  author       = {S. Bodenm{\"{u}}ller and
-                  J. Derrick and
-                  B. Dongol and
-                  G. Schellhorn and
-                  H. Wehrheim},
-  editor       = {R. Dimitrova and
-                  O. Lahav and
-                  S. Wolff},
-  title        = {A Fully Verified Persistency Library},
-  booktitle    = {VMCAI},
-  series       = {LNCS},
-  volume       = {14500},
-  pages        = {26--47},
-  publisher    = {Springer},
-  year         = {2024},
-  url          = {https://doi.org/10.1007/978-3-031-50521-8\_2},
-  doi          = {10.1007/978-3-031-50521-8\_2},
-  timestamp    = {Fri, 26 Jan 2024 07:55:26 +0100},
-  biburl       = {https://dblp.org/rec/conf/vmcai/BodenmullerDDSW24.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+
+@inproceedings{VMCAI2023,
+  author    = {S. Bodenmüller and J. Derrick and B. Dongol and G. Schellhorn and H. Wehrheim},
+  editor    = {},
+  title     = {A Fully Verified Persistency Library},
+  booktitle = {VMCAI},
+  series    = {LNCS},
+  volume    = {},
+  pages     = {},
+  publisher = {Springer},
+  year      = {2024},
+  url       = {},
+  doi       = {},
+  eprint     = {}
 }
+
 
 @inproceedings{DBLP:conf/sefm/SemenyukBD23,
   author       = {M. Semenyuk and
